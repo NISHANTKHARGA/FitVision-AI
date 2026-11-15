@@ -1,4 +1,4 @@
-"""SQLite database setup (SQLAlchemy)."""
+"""SQLite database setup (SQLAlchemy)"""
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker, declarative_base
 

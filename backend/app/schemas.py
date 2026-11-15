@@ -1,4 +1,4 @@
-"""Pydantic schemas for the API."""
+"""Pydantic schemas for the API"""
 from typing import Optional, List
 from pydantic import BaseModel, Field
 

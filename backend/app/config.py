@@ -1,4 +1,4 @@
-"""FitVision AI backend configuration."""
+"""FitVision AI backend configuration"""
 import os
 from pathlib import Path
 

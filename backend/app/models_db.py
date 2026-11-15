@@ -1,4 +1,4 @@
-"""ORM models. We never store raw person/garment photographs by default;
+"""ORM models: We never store raw person/garment photographs by default,
 only the generated try-on image is kept on disk, and it is persisted to the
 database-backed history only when the user explicitly asks to save it."""
 import datetime as dt
