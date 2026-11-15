@@ -1,3 +1,8 @@
+# ==========================================
+# Try-On Router
+# Handles virtual try-on API endpoints.
+# ==========================================
+
 """Core API routes: analysis, generation, jobs, results, fit analysis."""
 import json
 import shutil

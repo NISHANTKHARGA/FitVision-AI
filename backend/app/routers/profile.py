@@ -1,3 +1,8 @@
+# ==========================================
+# Try-On Router
+# Handles virtual try-on API endpoints.
+# ==========================================
+
 """Profile + history routes."""
 import json
 import shutil
