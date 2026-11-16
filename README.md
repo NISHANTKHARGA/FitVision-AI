@@ -14,6 +14,28 @@
   <img src="docs/assets/fig_before_after.png" alt="FitVision AI — before and after virtual try-on" width="100%">
 </p>
 
+## A real run, end to end
+
+Everything below is from one actual user session (uploaded photos → processing → result), not a mock-up:
+
+**1 · Input — your photo and the garment**
+
+<p align="center">
+  <img src="docs/assets/fig_input.png" alt="FitVision AI input: user photo and garment photo" width="100%">
+</p>
+
+**2 · Processing — what the CV stack extracts**
+
+<p align="center">
+  <img src="docs/assets/fig_processing.png" alt="FitVision AI processing: pose detection overlay, garment background removal and dominant-colour palette" width="100%">
+</p>
+
+**3 · Output — the generated try-on**
+
+<p align="center">
+  <img src="docs/assets/fig_output.png" alt="FitVision AI output: before and after the AI try-on" width="100%">
+</p>
+
 ---
 
 ## The problem we're solving — and the context
