@@ -1,3 +1,4 @@
+#Fit analysis
 """Measurement-based fit analysis with transparent, configurable rules
 
 No garment measurements are ever invented from the photo -- only user-entered
