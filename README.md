@@ -16,7 +16,7 @@
 
 <p align="center">
   <a href="https://fitvision-ai-cyan.vercel.app">
-    <img src="https://img.shields.io/badge/live%20demo-fitvision--ai--cyan.vercel.app-B4432F" alt="Live demo on Vercel">
+    <img src="docs/assets/fig_vercel_button.png" alt="Launch FitVision AI — live demo on Vercel" width="640">
   </a>
 </p>
 
