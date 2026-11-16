@@ -1,4 +1,4 @@
-#Fifth
+
 """Garment Detail Preservation Checker.
 Compares the uploaded garment photo against the garment region of the
 generated try-on result. Every check reports whether it is *measured*
