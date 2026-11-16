@@ -1,4 +1,4 @@
-﻿# FitVision AI
+# FitVision AI
 
 > **Your Style. Your Fit. Before You Buy.**
 > Intelligent 2D virtual try-on with AI-powered garment transfer, honest fit analysis and garment-preservation verification â€” all running **locally**, not in the cloud.
