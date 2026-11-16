@@ -1,4 +1,4 @@
-#Mediapipe use garne
+#Used media pipe
 """Human pose estimation and measurement assistance via MediaPipe Pose.
 
 Limitations (documented honestly in the UI):

@@ -1,4 +1,4 @@
-#Garment analysis: background removal (rembg) and dominant colour extraction.
+#Garment analysis:: background removal (rembg) and dominant colour extraction.
 
 import io
 
