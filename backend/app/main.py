@@ -59,7 +59,10 @@ app = FastAPI(title="FitVision AI", version="1.0.0",
               lifespan=lifespan)
 
 import os
-_cors_origins = os.environ.get("FITVISION_CORS_ORIGINS", "").split(",")
+_cors_origins = os.environ.get(
+    "FITVISION_CORS_ORIGINS",
+    "https://fitvision-ai-cyan.vercel.app",
+).split(",")
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[o.strip() for o in _cors_origins if o.strip()],

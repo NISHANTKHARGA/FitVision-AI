@@ -14,6 +14,26 @@
   <img src="docs/assets/fig_before_after.png" alt="FitVision AI — before and after virtual try-on" width="100%">
 </p>
 
+<p align="center">
+  <a href="https://fitvision-ai-cyan.vercel.app">
+    <img src="https://img.shields.io/badge/live%20demo-fitvision--ai--cyan.vercel.app-B4432F" alt="Live demo on Vercel">
+  </a>
+</p>
+
+## ▶ Live demo (Vercel)
+
+**https://fitvision-ai-cyan.vercel.app** — the full UI is hosted on Vercel.
+
+The try-on model itself needs a local GPU, so the hosted page talks to the backend running on your own machine:
+
+1. **On this PC** (the one it was set up on): make sure the backend is running —
+   `cd backend && python -m uvicorn app.main:app --host 127.0.0.1 --port 8017` —
+   then open the link and everything works, including generation.
+2. **On any other machine**: you need the backend there too (same steps, ~2 GB one-time weight download, NVIDIA GPU ≥ 6 GB VRAM recommended). The hosted UI alone cannot render — there is no GPU in the cloud for free.
+3. **First generation after a cold start** waits ~40 s for model load; subsequent renders are seconds.
+
+Why not the whole stack on Vercel? Serverless functions have no GPU and ~10–60 s wall-clock limits; FASHN VTON v1.5 needs ~8 GB VRAM and a real GPU — Vercel hosts the frontend only. The backend CORS is pre-configured for this exact Vercel origin (`FITVISION_CORS_ORIGINS` env var changes it).
+
 ## A real run, end to end
 
 Everything below is from one actual user session (uploaded photos → processing → result), not a mock-up:

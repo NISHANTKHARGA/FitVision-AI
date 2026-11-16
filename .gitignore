@@ -9,3 +9,7 @@ backend/data/fitvision.db
 ai/fashn-vton-1.5/weights/
 ai/fashn-vton-1.5/test_output.png
 .DS_Store
+
+# Vercel project link (local only)
+frontend/.vercel/
+
